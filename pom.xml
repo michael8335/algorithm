@@ -10,5 +10,44 @@
 			<artifactId>junit</artifactId>
 			<version>4.10</version>
 		</dependency>
+		<dependency>
+			<groupId>ch.ethz.ganymed</groupId>
+			<artifactId>ganymed-ssh2</artifactId>
+			<version>build210</version>
+		</dependency>
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-camel_2.10.0-M7</artifactId>
+			<version>2.1-M2</version>
+		</dependency>
+		<dependency>
+		<groupId>org.simpleframework</groupId>
+		<artifactId>simple-xml</artifactId>
+		<version>0.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>4.10.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-highlighter</artifactId>
+			<version>4.10.2</version>
+		</dependency>
+		<dependency>
+			<groupId>IKAnalyzer</groupId>
+			<artifactId>IKAnalyzer</artifactId>
+			<version>2.0.2OBF</version>
+			<scope>system</scope>
+			<systemPath>/Users/fly/work/GitHub/algorithm/src/lib/ IKAnalyzer2.0.2OBF.jar</systemPath>
+		</dependency>
+		<dependency>
+	<groupId>org.apache.lucene</groupId>
+	<artifactId>lucene-analyzers-common</artifactId>
+	<version>4.10.2</version>
+</dependency>
+		
 	</dependencies>
 </project>

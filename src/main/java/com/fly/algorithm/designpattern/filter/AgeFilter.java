@@ -3,8 +3,12 @@ package com.fly.algorithm.designpattern.filter;
 public class AgeFilter extends SuperFilter
 {
 
-    public boolean filt(Person p)
+    public void filt(Person p)
     {
-        return p.getAge()>=18;
+        this.result= p.getAge()>=18;
+        if(result&&this.nextFilter!=null)
+        {
+            nextFilter.filt(p); 
+        }
     }
 }

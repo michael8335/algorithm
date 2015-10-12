@@ -4,6 +4,6 @@ public interface Filter
 
 {
     
-    public boolean filt(Person p);
+    public void filt(Person p);
     
 }

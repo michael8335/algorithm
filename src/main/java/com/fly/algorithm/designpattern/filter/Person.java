@@ -9,6 +9,8 @@ public class Person
     private int score;
     
     private String name;
+    
+    private boolean target;
 
     public int getAge()
     {
@@ -48,5 +50,15 @@ public class Person
     public void setName(String name)
     {
         this.name = name;
+    }
+
+    public boolean isTarget()
+    {
+        return target;
+    }
+
+    public void setTarget(boolean target)
+    {
+        this.target = target;
     }
 }

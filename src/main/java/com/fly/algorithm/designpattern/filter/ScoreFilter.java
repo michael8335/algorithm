@@ -3,8 +3,8 @@ package com.fly.algorithm.designpattern.filter;
 public class ScoreFilter extends SuperFilter
 {
 
-    public boolean filt(Person p)
+    public void filt(Person p)
     {
-        return p.getScore()>=60;
+        this.result= p.getScore()>=60;
     }
 }

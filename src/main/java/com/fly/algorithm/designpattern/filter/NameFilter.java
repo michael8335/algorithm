@@ -3,9 +3,9 @@ package com.fly.algorithm.designpattern.filter;
 public class NameFilter extends SuperFilter
 {
 
-    public boolean filt(Person p)
+    public void filt(Person p)
     {
-        return "Fly".equals(p.getName());
+        this.result= "Fly".equals(p.getName());
     }
 
 }

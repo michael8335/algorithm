@@ -4,5 +4,4 @@ public abstract class SuperFilter implements Filter
 {
     protected Filter nextFilter;
     protected boolean result;
-    
 }
